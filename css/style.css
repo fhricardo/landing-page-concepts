@@ -140,6 +140,41 @@ main {
             }
         }
 
+        #about {
+            width: 100%;
+            padding: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            background-color: slateblue;
+
+            h3 {
+                width: 100%;
+                text-align: center;
+            }
+
+            div {
+                width: 100%;
+                display: flex;
+                gap: 16px;
+
+                div {
+                    width: calc(100% - 166px);
+                    height: 150px;
+                    background-color: #fafafa;
+
+                }
+
+                div:last-child {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
         #testemonials {
             width: 100%;
             padding: 16px;
